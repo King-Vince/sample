@@ -1,0 +1,32 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.page-title{
+  margin: 0;
+  background-color: rgb(99, 59, 26);
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+.sidebar {
+  flex: 0 0 250px;
+  background-color: rgb(99, 59, 26);
+  color: white;
+  padding: 20px;
+}
+
+.content{
+  display: flex;
+}
+
+.logo {
+  width: 450px; /* Adjust the width as needed */
+  height: auto; /* This maintains the aspect ratio of the image */
+  /* Add any additional styling you want */
+  margin-bottom: 0;
+}

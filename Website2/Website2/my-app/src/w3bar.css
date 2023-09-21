@@ -1,0 +1,32 @@
+.w3-bar {
+    overflow: hidden;
+    background-color: #333;
+    padding-bottom: 0;
+  }
+  
+  .w3-bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-right: 70px;
+    margin-left: 100px;
+    font-size: x-large;
+  }
+
+  .w3-bar a:hover{
+    color: greenyellow;
+  }
+  
+  .logo {
+    float: left;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 14px 10px;
+  }
+
+  

@@ -1,0 +1,43 @@
+.news-section {
+    flex: 1;
+    padding: 120px;
+  }
+  
+  .news-section h2 {
+    margin-bottom: 50px;
+    padding: 20px;
+    color: #000000;
+    animation: infinite;
+    animation-name: news-section;
+    animation-duration: 6s;
+    border-radius: 20px;
+  }
+
+  @keyframes news-section {
+    0%   {background-color: rgb(230, 171, 171);}
+    25%  {background-color: rgb(255, 255, 133);}
+    50%  {background-color: rgb(243, 184, 75);}
+    100% {background-color: rgb(245, 215, 133);}
+  }
+  
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 170px;
+  }
+  
+  .news-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 1;
+    border-color: black;
+  }
+
+  .card {
+    background-color: #4e4e4b;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  

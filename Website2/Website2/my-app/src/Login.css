@@ -1,0 +1,121 @@
+.font {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.form-group{
+    position: relative;
+    margin-top: 15px;
+    color: white;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 250px;
+    max-width: 400px;
+    padding: 2% 2% 2% 3%;
+    border: 1px solid #66656596;
+    border-radius: 1px;
+    background-color: #ffffff33;
+    margin-top: 50px;
+}
+
+.login-wrapper {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(30px);
+    -webkit-filter: blur(10px);
+    background-image: url("../Slide4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #2a5992;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: medium;
+}
+
+.text-section {
+    text-align: center;
+    color: white;
+    font-size: small;
+    margin-bottom: auto;
+    margin-top: 20px;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.icon {
+    max-width: 16px;
+    height: auto;
+    margin-left: 250px;
+}
+
+.form-control {
+    padding: 2% 2%;
+    padding-left: 10px;
+    height: auto;
+    width: 210px;
+    font-size: medium;
+}
+
+.icon2 {
+    max-width: 16px;
+    height: auto;
+    margin-left: 250px;
+}
+
+.error-message {
+    background-color: rgb(253, 225, 225);
+    color: rgb(247, 0, 0);
+    border: 1px solid rgb(216, 189, 189);
+    padding: 5px;
+    margin-top: 5px;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 215px;
+}
+
